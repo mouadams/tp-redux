@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* Centering content in the page */
+.quiz-container, .error-container, .game-over-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling for buttons */
+button, .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover {
+  background-color: #45a049;
+}
+
+/* Loading and Error messages */
+.loading, .error-container, .game-over-container {
+  font-size: 1.5em;
+  color: #333;
+}
+
+/* Error container styles */
+.error-container {
+  color: red;
+}
+
+.error-message {
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.game-over-container {
+  color: #ff6347;
+  font-size: 1.5em;
+}
+
+.game-over-container p {
+  font-size: 1.2em;
+}
+
+/* Styling for the Question and Answer Buttons */
+.question {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.answer-button {
+  background-color: #2196F3;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.1em;
+  border-radius: 5px;
+}
+
+.answer-button:hover {
+  background-color: #1976D2;
+}
+
+/* Category Select Styling */
+#category-select {
+  font-size: 1.1em;
+  padding: 10px;
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Styling for the Start Quiz Button */
+.btn-restart, .btn-error {
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-restart:hover, .btn-error:hover {
+  background-color: #45a049;
+}
+
+/* Styling for Form Container */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .quiz-container, .game-over-container, .error-container {
+    padding: 15px;
+  }
+
+  .answer-button {
+    font-size: 1em;
+    width: 90%;
+    margin: 10px auto;
+  }
+}

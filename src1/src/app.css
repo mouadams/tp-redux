@@ -1,0 +1,75 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.singer-cards-container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.singer-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.singer-cards-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.singer-cards-container h3 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #444;
+}
+
+.vote-button,
+.reset-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.vote-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.vote-button:hover {
+    background-color: #218838;
+}
+
+.reset-button {
+    background-color: #dc3545;
+    color: white;
+    margin: 20px;
+}
+
+.reset-button:hover {
+    background-color: #c82333;
+}
